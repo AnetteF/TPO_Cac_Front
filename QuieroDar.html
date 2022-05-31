@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Página QuieroDar - Sitio - Solidaridad - TPO 05-2022 Analía Farinazzo analia.farinazzo@gmail.com -->
+<!-- CAC 2022 - Comisión 22066 - Docente Ariel Palazzesi-->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Definición declaración Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título e Icono local del Sitio -->
+    <title>Solidaridar - Quiero Dar</title>
+    <link rel="icon" href="img/Solidaridar.ico">
+	<!-- Archivo JavaScript Externo -->
+    <script src="js/solidaridar.js"></script>
+	<!-- Archivo Hoja de Estilos en Cascada Externo -->
+    <link rel="stylesheet" href="css/nromalize.css">
+    <link rel="stylesheet" href="css/solidaridar.css">
+    	<!-- Iconos Externos utilizados desde fontawesome> -->
+    <script src="https://kit.fontawesome.com/389f326e18.js" crossorigin="anonymous"></script>
+    <!--Tipografía Externa - Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Pacifico&family=Patrick+Hand&family=Square+Peg&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="/img/logo.png"  alt="Solidaridar"/></a>
+        </div>
+        <div class="nombreProyecto">
+            <h1 class="nombreLogo">Solidaridar</h1>
+            <h2 class="slogan">banco de alimentos saludables</h2>
+        </div>
+    </header>
+    <main>
+        <br>
+        <h2>Quiero Dar Alimentos</h2>
+        <br>
+        <div><p id="pque">Gracias a los dadores de alimentos, podemos hacerles llegar a las entidades beneficiarias distintos alimentos saludables, dentro del ámbito de CABA y la provincia de Buenos Aires, podemos, a través de los diferentes servicios de logística y transporte asociados hacer llegar los alimentos donados. Nos ponemos en contacto con las entidades de la red en las que participamos para poder llevar la mercaderia a destino. Para el resto del país sólo haremos llegar alimentos saludables no perecederos. AQUI podés conocer cuales son los alimentos saludables mas convenientes para donar.</p> 
+        <b style="text-align:center">CONTAMOS CON TU AYUDA</b></p></div>
+        <br>
+        <div class="formulario">  
+            <form id="ContactoDar" method="post">
+              <fieldset>
+                <input id="nombre" placeholder="Tu nombre completo" type="text" tabindex="1" required autofocus>
+              </fieldset>
+              <fieldset>
+                <input id="mail" placeholder="Tu correo Electrónico" type="email" tabindex="2" required name="email">
+              </fieldset>
+              <fieldset>
+                <input id="telefono" placeholder="Tu teléfono de contacto (Con código de Área)" type="tel" tabindex="3">
+              </fieldset>
+              <fieldset>
+                <textarea id="donar" placeholder="Alimentos que te gustaría donar" tabindex="4"></textarea>
+              </fieldset>
+              <fieldset>
+                <input id="direccion" placeholder="Dirección de Retiro de Mercadería" type="text" tabindex="5">
+              </fieldset>
+              <fieldset>
+                <input name="Enviar" type="button" id="Contacto-enviar" value="Enviar" onclick="validarFormulario();"/>
+              </fieldset>
+            </form>
+        </div>
+    </main>
+    <nav>
+        <ul>
+            <li><a href="/index.html" title="Solidaridar">Inicio</a></li>
+        <li><a href="/QuieroDar.html" title="Quiero Dar">QuieroDar</a></li>
+        <li><a href="/QuieroRecibir.html" title="Quiero Recibir">QuieroRecibir</a></li>
+        <li><a href="/QuienesSomos.html" title="Quienes Somos">QuienesSomos</a></li>
+        </ul>
+    </nav>
+    <footer>
+        <!-- Redes Sociales y Quienes Somos-->
+        <br>
+        <span>Nuestras Redes Sociales: </span>
+        <a href="https://www.facebook.com/profile.php?id=100081516002230" alt="Facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/ar.solidaridar/" alt="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="mailto:infosolidaridarong@gmail.com" alt="Escribinos"><i class="fa-solid fa-envelope"></i></a>
+        <br>
+        <span>Para conocernos, haz click </span><a href="/QuienesSomos.html" title="Quienes Somos">aqui</a>
+        <br>
+        <h3 style="text-align:center">©Analía Farinazzo</h3>
+    </footer>
+</body>
+</html>

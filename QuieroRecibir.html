@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Página QuieroRecibir - Sitio - Solidaridad - TPO 05-2022 Analía Farinazzo analia.farinazzo@gmail.com -->
+<!-- CAC 2022 - Comisión 22066 - Docente Ariel Palazzesi-->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Definición declaración Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título e Icono local del Sitio -->
+    <title>Solidaridar - Quiero Recibir</title>
+    <link rel="icon" href="img/Solidaridar.ico">
+	<!-- Archivo JavaScript Externo -->
+    <script src="js/solidaridar.js"></script>
+	<!-- Archivo Hoja de Estilos en Cascada Externo -->
+    <link rel="stylesheet" href="css/nromalize.css">
+    <link rel="stylesheet" href="css/solidaridar.css">
+    	<!-- Iconos Externos utilizados desde fontawesome> -->
+    <script src="https://kit.fontawesome.com/389f326e18.js" crossorigin="anonymous"></script>
+    <!--Tipografía Externa - Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Pacifico&family=Patrick+Hand&family=Square+Peg&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="/img/logo.png"  alt="Solidaridar"/></a>
+        </div>
+        <div class="nombreProyecto">
+            <h1 class="nombreLogo">Solidaridar</h1>
+            <h2 class="slogan">banco de alimentos saludables</h2>
+        </div>
+    </header>
+    <main>
+        <br>
+        <h2><b style="text-align:center">Formulario de Inscripción para recibir ayuda</b></h2>
+        <br>
+        <div class="formulario2">  
+            <form id="ContactoRecibir" method="post">
+              <fieldset>
+                <input id="nombre" placeholder="Nombre del Comedor, Merendero o Copa de Leche" type="text" tabindex="1" required autofocus>
+              </fieldset>
+              <fieldset>
+                <input id="telefono" placeholder="Teléfono de la persona a Cargoo Referente (Con código de Área)" type="tel" required tabindex="2">
+              </fieldset>
+              <fieldset>
+                <input id="direccion" placeholder="Dirección exacta del comedor (Incluir instrucciones de como llegar)" type="text" required tabindex="3">
+              </fieldset>
+              <fieldset>
+                <input id="barrio" placeholder="Barrio" type="text" tabindex="4" required name="barrio">
+              </fieldset>
+              <fieldset>
+                <input id="localidad" placeholder="Localidad" type="text" tabindex="5" required name="localidad">
+              </fieldset>
+              <fieldset>
+                <input id="cantPersonas" placeholder="Cantidad Personas que Atienden" type="text" tabindex="6" required name="benef">
+              </fieldset>
+              <fieldset>
+                <input name="Enviar" type="button" id="Contacto2-enviar" value="Enviar" onclick="validarFormulario2();"/>
+              </fieldset>
+            </form>
+        </div>
+        <br>        
+    </main>
+    <nav>
+        <ul>
+            <li><a href="/index.html" title="Solidaridar">Inicio</a></li>
+        <li><a href="/QuieroDar.html" title="Quiero Dar">QuieroDar</a></li>
+        <li><a href="/QuieroRecibir.html" title="Quiero Recibir">QuieroRecibir</a></li>
+        <li><a href="/QuienesSomos.html" title="Quienes Somos">QuienesSomos</a></li>
+        </ul>
+    </nav>
+    <footer>
+        <!-- Redes Sociales y Quienes Somos-->
+        <br>
+        <span>Nuestras Redes Sociales: </span>
+        <a href="https://www.facebook.com/profile.php?id=100081516002230" alt="Facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/ar.solidaridar/" alt="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="mailto:infosolidaridarong@gmail.com" alt="Escribinos"><i class="fa-solid fa-envelope"></i></a>
+        <br>
+        <span>Para conocernos, haz click </span><a href="/QuienesSomos.html" title="Quienes Somos">aqui</a>
+        <br>
+        <h3 style="text-align:center">©Analía Farinazzo</h3>
+    </footer>
+    
+</body>
+</html>
